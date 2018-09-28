@@ -4,10 +4,7 @@
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
-    padding-top: 37%;
-    height:100%;
+    /* padding-top: 37%; */
+    height:100vh;
 };
 
-/* .container {
-background-color: red;
-} */

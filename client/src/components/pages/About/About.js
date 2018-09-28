@@ -9,12 +9,12 @@ import "./About.css";
 const About = () => (
   <div>
       <div className="image">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
+        <h1>Daniela Shvartsman</h1>
+        <h2>Full Stack Web Developer</h2>
       </div>
 
 
-          <h1>Welcome To Pupster!</h1>
+          <h1>About Me!</h1>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
