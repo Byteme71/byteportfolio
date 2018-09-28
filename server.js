@@ -25,7 +25,22 @@ app.get("*", (req, res) => {
 });
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/contact");
+var databaseUri = "mongodb://localhost/contact";
+if (process.env.MONGODB_URI) {
+  mongoose.connect(process.env.MONGODB_URI);
+} else {
+  mongoose.connect(databaseUri);
+}
+
+var db = mongoose.connection;
+
+db.on("error", function (err) {
+  console.log("Mongoose Error: ", err);
+});
+
+db.once("open", function () {
+  console.log("Mongoose connection successful.")
+})
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> Server now on port ${PORT}!`);
