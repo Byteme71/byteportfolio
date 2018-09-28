@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.css";
 // import axios from "axios";
 
 
@@ -7,9 +8,10 @@ import React from "react";
 
 const About = () => (
   <div>
-
-      <h1>Pupster</h1>
-      <h2>They're the Good Boys and Girls</h2>
+      <div className="image">
+        <h1>Pupster</h1>
+        <h2>They're the Good Boys and Girls</h2>
+      </div>
 
 
           <h1>Welcome To Pupster!</h1>
@@ -48,7 +50,7 @@ const About = () => (
             tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla interdum elit
             pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet massa.
           </p>
-  </div>
+    </div>
 );
 
 export default About;

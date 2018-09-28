@@ -1,0 +1,13 @@
+.image { 
+    background-image: url(../../../photos/test.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 37%;
+    height:100%;
+};
+
+/* .container {
+background-color: red;
+} */
