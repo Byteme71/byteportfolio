@@ -2,6 +2,9 @@
     height:100vh;
     background-size: cover;
     background-image: url(../../../photos/pexels-photo-1029606.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
 }
 .initialtext {
     text-align: center;
