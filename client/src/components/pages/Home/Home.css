@@ -1,4 +1,28 @@
 .fullscreen {
     height:100vh;
     background-size: cover;
+    background-image: url(../../../photos/pexels-photo-1029606.jpeg);
+}
+.initialtext {
+    text-align: center;
+    padding-top: 13%;
+    font-family: 'Play',
+    sans-serif;
+}
+.secondtext {
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Play',
+    sans-serif;
+}
+.thirdtext {
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Play',
+    sans-serif;
+}
+button {
+   margin: 3% auto auto 44%;
+   font-family: 'Play',
+   sans-serif;
 }
