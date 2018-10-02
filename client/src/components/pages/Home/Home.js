@@ -28,9 +28,11 @@ class Home extends React.Component {
           <h1 className="initialtext">What is a Dani-Byte, you ask?!</h1>
         </Tada>
         <Flip top cascade delay={2500}>
-          <h2 className="secondtext">Dani-Byte = Daniela Shvartsman</h2>
-          <h3 className="thirdtext">A terabyte is 1,024 GB but a Dani-Byte is filled with endless energy, positivity and passion!</h3>
-          <button type="button" className="btn btn-outline-info">Click me to learn more!</button>  
+          <h2 className = "secondtext"> Dani - Byte = <span className = "nme"> Daniela Shvartsman </span></h2>
+            <h4 className="thirdtext">A terabyte is 1,024 GB but a Dani-Byte is filled with endless energy, positivity and passion!</h4>
+            <div className="centerbtn">
+              <button type="button" className="btn btn-outline-info">Click me to learn more!</button>  
+              </div>
         </Flip>
       </div>       
       </div>

@@ -20,12 +20,20 @@
 }
 .thirdtext {
     text-align: center;
-    padding-top: 1%;
+    padding-top: 1.5%;
     font-family: 'Play',
     sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.centerbtn {
+    text-align: center;
 }
 button {
-   margin: 3% auto auto 44%;
+    margin-top: 2%;
    font-family: 'Play',
    sans-serif;
+}
+.nme {
+    text-shadow: 3px 2px 0px rgba(0,0,0,0.2);
 }

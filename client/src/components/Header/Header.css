@@ -1,6 +1,5 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
-}
-.hover-effect {
-  
+  top: 0;
+  position: fixed;
 }

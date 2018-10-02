@@ -7,7 +7,7 @@ import "./Header.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 const Header = props => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <Link className="navbar-brand hover-effect" to="/">
+    <Link className="navbar-brand" to="/">
       Daniela Shvartsman
     </Link>
     <div>
@@ -19,7 +19,8 @@ const Header = props => (
               : "nav-item"
           }
         >
-          <Link to="/about" className="nav-link">
+          <Link to = "/about"
+          className = "nav-link">
             About
           </Link>
         </li>
@@ -30,7 +31,8 @@ const Header = props => (
               : "nav-item"
           }
         >
-          <Link to="/contact" className="nav-link">
+          <Link to = "/contact"
+          className = "nav-link">
             Contact
           </Link>
         </li>
