@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
@@ -27,11 +28,14 @@ class Home extends React.Component {
          <Tada>
           <h1 className="initialtext">What is a Dani-Byte, you ask?!</h1>
         </Tada>
-        <Flip top cascade delay={2500}>
-          <h2 className = "secondtext"> Dani - Byte = <span className = "nme"> Daniela Shvartsman </span></h2>
+          <Flip top cascade delay={2500}>
+            <div className="help">
+              <h2 className="secondtext"> Dani-Byte = </h2> <h2 className="nme"> Daniela Shvartsman </h2>
+              </div>
             <h4 className="thirdtext">A terabyte is 1,024 GB but a Dani-Byte is filled with endless energy, positivity and passion!</h4>
-            <div className="centerbtn">
-              <button type="button" className="btn btn-outline-info">Click me to learn more!</button>  
+            <div className="centerbtn"> <Link className="noeffect" to="/about">
+              <button type="button" className="btn btn-outline-info">
+               Click me to learn more!</button></Link>  
               </div>
         </Flip>
       </div>       

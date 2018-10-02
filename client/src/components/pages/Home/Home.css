@@ -12,13 +12,23 @@
     font-family: 'Play',
     sans-serif;
 }
+.help {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .secondtext {
-    text-align: center;
     padding-top: 3%;
     font-family: 'Play',
     sans-serif;
 }
+.nme {
+    padding-top: 2.5%;
+    padding-left: 1%;
+    text-shadow: 4px 4px 4px #aaa;
+}
 .thirdtext {
+    clear: both;
     text-align: center;
     padding-top: 1.5%;
     font-family: 'Play',
@@ -34,6 +44,7 @@ button {
    font-family: 'Play',
    sans-serif;
 }
-.nme {
-    text-shadow: 3px 2px 0px rgba(0,0,0,0.2);
+
+.noeffect {
+    text-decoration: none;
 }
