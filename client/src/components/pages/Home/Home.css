@@ -10,41 +10,32 @@
     padding-top: 10%;
     font-size: 60px;
     text-align:center;
+    font-family: 'Exo', sans-serif;     
 }
 .initialText {
     font-size: 100px;
     text-align: center;
     padding-top: 2%;
-    font-family: 'Play',
+    font-family: 'Exo',
     sans-serif;
-    text-shadow:
-    1px 1px 0 #CCC,
-	2px 2px 0 #CCC,
-	3px 3px 0 #444,
-	4px 4px 0 #444,
-	5px 5px 0 #444,
-	6px 6px 0 #444;
+    text-shadow: 4px 4px 4px #aaa;
 }
-/* .help {
+.help {
     display: flex;
     flex-direction: row;
     justify-content: center;
-} */
+    flex-wrap: wrap;
+}
 .secondText {
     padding-top: 3%;
-    font-family: 'Play',
+    font-family: 'Exo',
     sans-serif;
 }
-/* .nme {
-    padding-top: 2.5%;
-    padding-left: 1%;
-    text-shadow: 4px 4px 4px #aaa;
-} */
 .thirdText {
     clear: both;
     text-align: center;
     padding-top: 1.5%;
-    font-family: 'Play',
+    font-family: 'Exo',
     sans-serif;
     padding-left: 5%;
     padding-right: 5%;
@@ -57,7 +48,9 @@ button {
    font-family: 'Play',
    sans-serif;
 }
-
 .noEffect {
     text-decoration: none;
+}
+.name {
+    padding-left: 2%;
 }

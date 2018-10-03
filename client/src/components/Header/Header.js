@@ -10,11 +10,11 @@ const Header = props => (
     <Link className="navbar-brand" to="/">
       Daniela Shvartsman
     </Link>
-    <div>
+       <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li
           className={
-            window.location.pathname === "/" 
+            window.location.pathname === "/about" 
               ? "nav-item active"
               : "nav-item"
           }
@@ -26,7 +26,7 @@ const Header = props => (
         </li>
         <li
           className={
-            window.location.pathname === "/about"
+            window.location.pathname === "/contact"
               ? "nav-item active"
               : "nav-item"
           }
@@ -36,8 +36,8 @@ const Header = props => (
             Contact
           </Link>
         </li>
-      </ul>
-    </div>
+        </ul>
+      </div>
 
     <button
       className="navbar-toggler"
@@ -48,6 +48,7 @@ const Header = props => (
       aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"/>
     </button>
+
   </nav>
 );
 

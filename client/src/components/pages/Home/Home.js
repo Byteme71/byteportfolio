@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import axios from "axios";
-// import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-// import Tada from "react-reveal/Tada";
-// import Bounce from 'react-reveal/Bounce';
-import Flip from "react-reveal/Flip";
+import LightSpeed from "react-reveal/LightSpeed";
 import "./Home.css";
+import Bounce from 'react-reveal/Bounce';
 
 class Home extends React.Component {
   // initial form state
@@ -25,17 +22,26 @@ class Home extends React.Component {
     return (
       <div>
         <div className="fullscreen">
-          <Fade>
-            <h1 className="newFirst">I'm</h1>
-          <h1 className="initialText">Daniela Shvartsman</h1>
-        </Fade>
-          <Flip top cascade delay={1600}>
+      
+            <Bounce top>
+            <h1 className="newFirst">Hey, I'm</h1>
+            </Bounce>
+          <div className="help">
+              <LightSpeed left delay={1300}>
+              <h1 className="initialText">Daniela</h1>
+            </LightSpeed>
+            <LightSpeed right delay={1300}>
+              <h1 className="initialText name">Shvartsman</h1>
+              </LightSpeed>
+              </div>
+       
+          <Fade bottom cascade delay={2300}>
             <h4 className="thirdText">a Full Stack Web Developer</h4>
             <div className="centerBtn"> <Link className="noEffect" to="/about">
               <button type="button" className="btn btn-outline-info">
                Click me to learn more!</button></Link>  
               </div>
-        </Flip>
+        </Fade>
       </div>       
       </div>
     );
