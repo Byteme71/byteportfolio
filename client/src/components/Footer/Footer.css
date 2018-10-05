@@ -1,9 +1,8 @@
 .footer {
-  min-height: 100px;
+  min-height: 150px;
   background: #E5E5E5;
   position: relative;
 }
-
 .footer span {
   position: absolute;
   bottom: 0;
@@ -12,4 +11,19 @@
   padding: 3px;
   background: #B8B8B8;
   text-align: center;
+}
+h5{
+  text-align: center;
+  padding: 5px;
+}
+.contactIcons{
+  text-align: center;
+}
+.contactIcons i{
+  font-size:30px;
+  padding-left:6px;
+  padding-right:6px;
+}
+hr {
+  width: 70%;
 }
