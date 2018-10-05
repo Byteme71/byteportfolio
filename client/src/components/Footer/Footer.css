@@ -14,7 +14,14 @@
 }
 h5{
   text-align: center;
-  padding: 5px;
+  padding-top: 16px;
+  font-family:"Roboto",
+  "Helvetica Neue",
+  "Arial",
+  "sans-serif",
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
 }
 .contactIcons{
   text-align: center;
