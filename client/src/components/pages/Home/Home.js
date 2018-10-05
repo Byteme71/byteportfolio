@@ -4,21 +4,36 @@ import Fade from "react-reveal/Fade";
 import LightSpeed from "react-reveal/LightSpeed";
 import "./Home.css";
 import Bounce from 'react-reveal/Bounce';
+import * as Scroll from 'react-scroll';
+import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 class Home extends React.Component {
-  // initial form state
-  // state = {
-  //   articles: [],
-  //   articlesToSave:{
-  //     title: "",
-  //     date: "",
-  //     snippet:"",
-  //     url: ""
-  //   }
-  // };
 
+  // initial form state
+  state = {
+    scroll: false,
+  };
+
+
+
+  handleOnClick = () => {
+    if (this.state.scroll === false) {
+      scroll.scrollToBottom();
+      this.setState({
+        scroll: true
+      })
+    } else if (this.state.scroll === true){
+      scroll.scrollToTop();
+       this.setState({
+         scroll: false
+       })
+    }
+     
+  }
 
   render() {
+    
     return (
       <div>
         <div className="fullscreen">
@@ -41,8 +56,11 @@ class Home extends React.Component {
               <button type="button" className="btn btn-outline-info">
                Click me to learn more!</button></Link>  
               </div>
-        </Fade>
-      </div>       
+          </Fade>
+            < div className = "down-arrow footer-toggle"> </div>
+          <i onClick={this.handleOnClick} className={this.state.scroll === true ? "animated infinite bounce slower fas fa-angle-up" : "animated infinite bounce slower fas fa-angle-down"}></i>
+          {/* <i class="fas fa-angle-up"></i> */}
+        </div>
       </div>
     );
   }
