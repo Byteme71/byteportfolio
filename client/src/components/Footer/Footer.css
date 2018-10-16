@@ -34,3 +34,15 @@ h5{
 hr {
   width: 70%;
 }
+.centerClose {
+text-align: center;
+}
+.resumeStyle {
+  width: 100%;
+}
+.resumeOpener{
+  color:#0478ff;
+}
+.resumeOpener:hover{
+  color: #0058b5;
+}
