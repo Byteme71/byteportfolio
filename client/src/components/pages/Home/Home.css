@@ -68,6 +68,10 @@ button {
                  0px 0px 40px; 
     margin-bottom: -27px;
 } 
+
+.fa-angle-down:hover{
+    cursor:pointer;
+}
  .fa-angle-up {
      font-size: 100px;
      position: absolute;
@@ -81,4 +85,7 @@ button {
          0px 0px 30px rgb(35, 145, 170),
          0px 0px 40px;
      margin-bottom: -27px;
+ }
+ .fa-angle-up:hover{
+    cursor:pointer;
  }

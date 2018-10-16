@@ -30,7 +30,7 @@ class Footer extends React.Component {
    render () {
   return (
   <footer className="footer">
-    <h5>Stay in touch!</h5>
+    <h5>&#10084; Stay in touch! &#10084;</h5>
     <hr/>
     <div className="contactIcons">
       <a href="https://www.linkedin.com/in/shvartsmand/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>

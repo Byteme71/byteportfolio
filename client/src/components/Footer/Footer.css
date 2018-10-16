@@ -45,4 +45,5 @@ text-align: center;
 }
 .resumeOpener:hover{
   color: #0058b5;
+  cursor:pointer;
 }
