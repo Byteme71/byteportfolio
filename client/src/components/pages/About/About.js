@@ -1,17 +1,45 @@
 import React from "react";
 import "./About.css";
+import me from "../../../photos/smaller-01.jpg";
+import fullScreen from "../../../photos/pexels-photo-1166643.jpeg";
+import Flip from 'react-reveal/Flip';
+import Fade from 'react-reveal/Fade';
 // import axios from "axios";
 
 
 //regex for email ^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$//
 
+let myPhotoStyle = {
+  "width": "22%",
+  "marginTop": "5%",
+  "marginLeft": "15%",
+  "marginBottom": "1%"
+}
+
+let firstBackgroundStyle = {
+  backgroundImage: `url(${fullScreen})`,
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+  backgroundSize: "cover",
+  height: window.innerHeight
+  // top: '0',
+  // bottom: '0',
+  // left: '0',
+  // right: '0',
+  // position: 'absolute'
+} 
 
 const About = () => (
   <div>
-      <div className="image">
-        <h1>Daniela Shvartsman</h1>
-        <h2>Full Stack Web Developer</h2>
-      </div>
+    <div className="fullScreen" style={firstBackgroundStyle}>
+      <Flip top>
+        <img className="plsWork img-responsive img-fluid rounded img-thumbnail rounded-circle" src={me} alt="Daniela Shvartsman" style={myPhotoStyle}></img>
+      </Flip>
+      <Fade duration={4500}>
+        <h1 className="myName">Daniela Shvartsman</h1>
+        <h2 className="firstTitle">Full Stack Web Developer</h2>
+      </Fade>
+    </div>
 
 
           <h1>About Me!</h1>

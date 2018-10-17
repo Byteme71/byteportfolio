@@ -1,10 +1,20 @@
-.image { 
-    background-image: url(../../../photos/test.jpg);
+/* .fullScreen { 
+    background-image: url(../../../photos/pexels-photo-1166643.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
-    /* padding-top: 37%; */
     height:100vh;
-};
-
+}; */
+.myName {
+    font-family: "Exo", "sans-serif"; 
+    padding-left: 14.5%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto !important;
+}
+.firstTitle{
+    font-family: "Exo", "sans-serif"; 
+    padding-left: 14.5%;
+}
