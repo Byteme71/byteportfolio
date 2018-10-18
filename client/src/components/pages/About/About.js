@@ -11,6 +11,7 @@ import { render } from 'react-dom';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import ReactModal from 'react-modal';
 import cert from "../../../photos/bd1801e24261e7c293ab53218b6cfa54-jpg.jpg";
+import firstPic from "../../../photos/html5.png"
 
 
 
@@ -214,7 +215,12 @@ let firstBackgroundStyle = {
           </div>
     </div>
       <div className="mySkills test2">
-      <h1 className="text-justify text-center">My Skills</h1>
+        <h1 className="text-justify text-center">My Skills</h1>
+        <div className="firstLogoCont">
+          <div className="img-fluid rounded img-thumbnail firstPic">
+            <img className="img-fluid rounded img-thumbnail" src={firstPic} alt="Html5"></img>
+          </div>
+        </div>
       </div>
     </div>
 // );

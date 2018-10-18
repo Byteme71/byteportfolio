@@ -81,6 +81,7 @@
 }
 .mySkills {
     margin-top: 11%;
+    height: 100vh;
 }
 
  .forAboutPage4 {
@@ -120,3 +121,10 @@
  .certStyle {
     width: 100%;
  }
+.firstPic {
+    width: 200px;
+    height: 200px;
+}
+.firstPic:hover{
+    box-shadow: 3px 3px 5px 6px rgb(138, 137, 137);
+}
