@@ -11,7 +11,12 @@ import { render } from 'react-dom';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import ReactModal from 'react-modal';
 import cert from "../../../photos/bd1801e24261e7c293ab53218b6cfa54-jpg.jpg";
-import firstPic from "../../../photos/html5.png"
+import firstPic from "../../../photos/html5.png";
+import secondPic from "../../../photos/css3.png";
+import thirdPic from "../../../photos/js.png";
+import fourthPic from "../../../photos/node.png";
+import fifthPic from "../../../photos/react.png";
+import sixthPic from "../../../photos/express.png";
 
 
 
@@ -137,7 +142,7 @@ let firstBackgroundStyle = {
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center",
   backgroundSize: "cover",
-  height: window.innerHeight,
+  // height: window.innerHeight,
   height: "100vh",
   position: "relative"
   // top: '0',
@@ -213,14 +218,36 @@ let firstBackgroundStyle = {
         <div className="skills-toggle">
           <Link activeClass="active" className="test2" to="test2" spy={true} smooth={true} duration={500}><i onClick={this.checkStateOf} className={this.state.clicked === true ? "animated infinite bounce slower fas fa-angle-up forAboutPage3" : "animated infinite bounce slower fas fa-angle-down forAboutPage4"}></i></Link>
           </div>
-    </div>
-      <div className="mySkills test2">
-        <h1 className="text-justify text-center">My Skills</h1>
-        <div className="firstLogoCont">
-          <div className="img-fluid rounded img-thumbnail firstPic">
-            <img className="img-fluid rounded img-thumbnail" src={firstPic} alt="Html5"></img>
-          </div>
         </div>
+      <div className="mySkills test2">
+        <h1 className="text-justify text-center forMoving">My Skills!</h1>
+        <div className="firstLogoCont">
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder" src={firstPic} alt="Html5"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder" src={secondPic} alt="Css3"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder" src={thirdPic} alt="js"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder nodeCenter" src={fourthPic} alt="node"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder reactCenter" src={fifthPic} alt="React"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder expressCenter" src={sixthPic} alt="Express"></img>
+          </div>
+
+        </div>
+
       </div>
     </div>
 // );

@@ -19,7 +19,7 @@
     padding-left: 14.5%;
 }
 .plsWork:hover {
-    box-shadow: 3px 3px 5px 6px rgb(138, 137, 137);
+    box-shadow: 0px 3px 3px 3px rgb(138, 137, 137);
 }
 
  .forAboutPage2 {
@@ -57,8 +57,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 .aboutMe{
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Open Sans', sans-serif;
 }
 .myListTitle {
     margin-left: 25%;
@@ -77,10 +78,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .mySkills {
-    margin-top: 11%;
+    margin-top: 10%;
     height: 100vh;
 }
 
@@ -121,10 +122,38 @@
  .certStyle {
     width: 100%;
  }
-.firstPic {
+.allPics {
     width: 200px;
     height: 200px;
+    transition: transform 1s;
+    margin: 10px 10px 10px 10px;
+    vertical-align: middle;
 }
-.firstPic:hover{
-    box-shadow: 3px 3px 5px 6px rgb(138, 137, 137);
+.allPics:hover {
+    box-shadow: 3px 3px 3px 3px rgb(138, 137, 137);
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+.firstLogoCont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.forMoving{
+    margin: 0 auto 6% auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.myProjects {
+    clear: both;
+}
+.noBorder{
+    border:none;
+}
+.nodeCenter {
+    margin-top: 20%;
+}
+.reactCenter{
+    margin-top: 30%;
+}
+.expressCenter{
+    margin-top: 26%;
 }
