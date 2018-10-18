@@ -22,7 +22,7 @@
     box-shadow: 3px 3px 5px 6px rgb(138, 137, 137);
 }
 
- .fa-angle-down {
+ .forAboutPage2 {
     font-size: 100px;
     position: absolute;
     bottom: 0;
@@ -30,14 +30,15 @@
     right: 0;
     text-align: center;
     /* color: rgb(35, 145, 170); */
-    text-shadow: 0px 0px 10px rgb(246, 247, 246) !important;
-    margin-bottom: -27px;
+    text-shadow: 0px 0px 10px rgb(246, 247, 246);
+    /* margin-bottom: -27px; */
+    padding-bottom: 3%;
 } 
 
-.fa-angle-down:hover{
+.forAboutPage2:hover {
     cursor:pointer;
 }
- .fa-angle-up {
+ .forAboutPage1 {
      font-size: 100px;
      position: absolute;
      bottom: 0;
@@ -45,17 +46,18 @@
      right: 0;
      text-align: center;
      /* color: rgb(35, 145, 170); */
-     text-shadow: 0px 0px 10px rgb(246, 247, 246) !important;
-     margin-bottom: -27px;
+     text-shadow: 0px 0px 10px rgb(246, 247, 246);
+     /* margin-bottom: -27px; */
+     padding-bottom: 3%;
  }
- .fa-angle-up:hover{
+ .forAboutPage1:hover {
     cursor:pointer;
  }
 .aboutMe, .aboutMe p {
     font-family: 'Open Sans', sans-serif;
 }
 .aboutMe{
-    margin-top: .5%;
+    margin-top: 1%;
     margin-bottom: 1%;
 }
 .myListTitle {
@@ -64,4 +66,57 @@
 .forMargin {
     margin-left: 1%;
     margin-right: 1%;
+    clear:both;
 }
+#aboutMe{
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+.centerThisButton {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    margin-bottom: 40px;
+}
+.mySkills {
+    margin-top: 11%;
+}
+
+ .forAboutPage4 {
+    font-size: 100px;
+    /* position: absolute; */
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    text-align: center;
+    /* color: rgb(35, 145, 170); */
+    text-shadow: 0px 0px 10px rgb(246, 247, 246);
+    /* margin-bottom: -27px; */
+    padding-bottom: 3%;
+} 
+
+.forAboutPage4:hover {
+    cursor:pointer;
+}
+ .forAboutPage3 {
+     font-size: 100px;
+     /* position: absolute; */
+     /* bottom: 0;
+     left: 0;
+     right: 0; */
+     text-align: center;
+     /* color: rgb(35, 145, 170); */
+     text-shadow: 0px 0px 10px rgb(246, 247, 246);
+     /* margin-bottom: -27px; */
+     padding-bottom: 3%;
+ }
+ .forAboutPage3:hover {
+    cursor:pointer;
+ }
+ .skills-toggle {
+     text-align: center;
+ }
+ .certStyle {
+    width: 100%;
+ }

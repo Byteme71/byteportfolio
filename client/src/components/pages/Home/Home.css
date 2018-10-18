@@ -54,7 +54,7 @@ button {
 .name {
     padding-left: 2%;
 }
- .fa-angle-down {
+ .letsChangeThis2 {
     font-size: 100px;
     position: absolute;
     bottom: 0;
@@ -69,10 +69,10 @@ button {
     margin-bottom: -27px;
 } 
 
-.fa-angle-down:hover{
+.letsChangeThis2:hover {
     cursor:pointer;
 }
- .fa-angle-up {
+ .letsChangeThis1 {
      font-size: 100px;
      position: absolute;
      bottom: 0;
@@ -86,6 +86,6 @@ button {
          0px 0px 40px;
      margin-bottom: -27px;
  }
- .fa-angle-up:hover{
+ .letsChangeThis1:hover {
     cursor:pointer;
  }

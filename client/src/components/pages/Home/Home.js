@@ -57,9 +57,8 @@ class Home extends React.Component {
                Click me to learn more!</button></Link>  
               </div>
           </Fade>
-            <div className = "down-arrow footer-toggle"> </div>
-          <i onClick={this.handleOnClick} className={this.state.scroll === true ? "animated infinite bounce slower fas fa-angle-up" : "animated infinite bounce slower fas fa-angle-down"}></i>
-          {/* <i class="fas fa-angle-up"></i> */}
+            <div className = "footer-toggle"> </div>
+          <i onClick={this.handleOnClick} className={this.state.scroll === true ? "animated infinite bounce slower fas fa-angle-up letsChangeThis1" : "animated infinite bounce slower fas fa-angle-down letsChangeThis2"}></i>
         </div>
       </div>
     );
