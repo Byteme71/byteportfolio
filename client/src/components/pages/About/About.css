@@ -18,3 +18,50 @@
     font-family: "Exo", "sans-serif"; 
     padding-left: 14.5%;
 }
+.plsWork:hover {
+    box-shadow: 3px 3px 5px 6px rgb(138, 137, 137);
+}
+
+ .fa-angle-down {
+    font-size: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* color: rgb(35, 145, 170); */
+    text-shadow: 0px 0px 10px rgb(246, 247, 246) !important;
+    margin-bottom: -27px;
+} 
+
+.fa-angle-down:hover{
+    cursor:pointer;
+}
+ .fa-angle-up {
+     font-size: 100px;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     text-align: center;
+     /* color: rgb(35, 145, 170); */
+     text-shadow: 0px 0px 10px rgb(246, 247, 246) !important;
+     margin-bottom: -27px;
+ }
+ .fa-angle-up:hover{
+    cursor:pointer;
+ }
+.aboutMe, .aboutMe p {
+    font-family: 'Open Sans', sans-serif;
+}
+.aboutMe{
+    margin-top: .5%;
+    margin-bottom: 1%;
+}
+.myListTitle {
+    margin-left: 25%;
+}
+.forMargin {
+    margin-left: 1%;
+    margin-right: 1%;
+}

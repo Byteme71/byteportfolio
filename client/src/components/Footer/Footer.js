@@ -43,7 +43,7 @@ class Footer extends React.Component {
         >
           <img className="resumeStyle" src={resume} alt="Resume"/>
           <div className="centerClose">
-            <button type="button" className="btn btn-outline-info" onClick={this.handleCloseModal}>Close Resume</button>
+            <button type="button" className="btn btn-outline-info forMargin" onClick={this.handleCloseModal}>Close Resume</button>
           </div>
         </ReactModal>
       <a href="https://plus.google.com/u/0/+DanielaShvartsman" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-plus"></i></a>
