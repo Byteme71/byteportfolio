@@ -6,7 +6,7 @@ import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
 // import * as Scroll from 'react-scroll';
 // import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-// import axios from "axios";
+import axios from "axios";
 import { render } from 'react-dom';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import ReactModal from 'react-modal';
@@ -39,7 +39,6 @@ import twentyfourthPic from "../../../photos/indesign.jpg";
 
 
 
-
 //regex for email ^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$//
 
 class About extends React.Component {
@@ -61,12 +60,24 @@ class About extends React.Component {
       console.log("end", arguments);
     });
 
+    axios.request({
+      url: "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous",
+      method: "get",
+      headers : {"X-Mashape-Key":"mRST8vI7Urmshu7LufdArXefa02up1mUy2JjsnbujyNyk5oMSG"}
+    }).then(response => {
+      console.log("these are the results", response)
+      this.setState({
+        randomFact:[]
+      })
+    });
+
   }
   
   state = {
     scroll: false,
     clicked: false,
-    showModal: false
+    showModal: false,
+    randomFact: []
   };
 
    handleOpenModal () {
@@ -237,7 +248,8 @@ let firstBackgroundStyle = {
 
         <div className="skills-toggle">
           <Link activeClass="active" className="test2" to="test2" spy={true} smooth={true} duration={500}><i onClick={this.checkStateOf} className={this.state.clicked === true ? "animated infinite bounce slower fas fa-angle-up forAboutPage3" : "animated infinite bounce slower fas fa-angle-down forAboutPage4"}></i></Link>
-          </div>
+        </div>
+        
         </div>
       <div className="mySkills test2">
         <h1 className="text-justify text-center forMoving">My Skills!</h1>
@@ -353,10 +365,18 @@ let firstBackgroundStyle = {
 
         </div>
 
+      <div className="api-toggle">
+          <Link activeClass="active" className="test3" to="test3" spy={true} smooth={true} duration={500}><i className= "animated infinite bounce slower fas fa-angle-down forAboutPage4"></i></Link>
       </div>
 
-      <div className="myProjects">
+      </div>
+
+      <div className="apiRandom test3">
         
+        <div className="putApiHere">
+          
+        </div>
+
       </div>
     </div>
 // );

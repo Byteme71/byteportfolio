@@ -117,7 +117,7 @@
     cursor:pointer;
  }
  .skills-toggle {
-     text-align: center;
+    text-align: center;
  }
  .certStyle {
     width: 100%;
@@ -126,7 +126,7 @@
     width: 200px;
     height: 200px;
     transition: transform .5s;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 15px 10px 15px;
     vertical-align: middle;
 }
 .allPics:hover {
@@ -142,7 +142,7 @@
     margin: 0 auto 6% auto;
     font-family: 'Open Sans', sans-serif;
 }
-.myProjects {
+.apiRandom {
     clear: both;
 }
 .noBorder{
@@ -219,4 +219,12 @@
 }
 .indesignCenter{
     margin-top: 25%;
+}
+.api-toggle {
+    margin-top: 4%;
+    text-align: center;
+}
+.apiRandom{
+
+    height: 100vh;
 }
