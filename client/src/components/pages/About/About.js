@@ -17,6 +17,26 @@ import thirdPic from "../../../photos/js.png";
 import fourthPic from "../../../photos/node.png";
 import fifthPic from "../../../photos/react.png";
 import sixthPic from "../../../photos/express.png";
+import seventhPic from "../../../photos/mongodb.png";       
+import eighthPic from "../../../photos/mongoose.png";
+import ninthPic from "../../../photos/mysql.png";
+import tenthPic from "../../../photos/sequelize.png";
+import eleventhPic from "../../../photos/mern.jpg";
+import twelfthPic from "../../../photos/git.png";
+import thirteenthPic from "../../../photos/ajax.png";
+import fourteenthPic from "../../../photos/json.png";
+import fifteenthPic from "../../../photos/restful_api.jpg";
+import sixteenthPic from "../../../photos/npm.png";
+import seventeenthPic from "../../../photos/yarn.png";
+import eigthteenthPic from "../../../photos/terminal.png";
+import ninteenthPic from "../../../photos/heroku.png";
+import twentiethPic from "../../../photos/handlebars.png";
+import twentyfirstPic from "../../../photos/jquery.png";
+import twentysecondPic from "../../../photos/photoshop.png";
+import twentythirdPic from "../../../photos/illustrator.png";
+import twentyfourthPic from "../../../photos/indesign.jpg";
+
+
 
 
 
@@ -221,6 +241,7 @@ let firstBackgroundStyle = {
         </div>
       <div className="mySkills test2">
         <h1 className="text-justify text-center forMoving">My Skills!</h1>
+
         <div className="firstLogoCont">
           <div className="img-fluid rounded img-thumbnail allPics">
             <img className="img-fluid rounded img-thumbnail noBorder" src={firstPic} alt="Html5"></img>
@@ -248,6 +269,94 @@ let firstBackgroundStyle = {
 
         </div>
 
+        <div className="firstLogoCont">
+          
+          <div className="img-fluid rounded img-thumbnail allPics fixMongo">
+            <img className="img-fluid rounded img-thumbnail noBorder mongoCenter" src={seventhPic} alt="Mongodb"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder mongooseCenter" src={eighthPic} alt="Mongoose"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder mysqlCenter" src={ninthPic} alt="Mysql"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder sequelizeCenter" src={tenthPic} alt="Sequelize"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder mernCenter" src={eleventhPic} alt="Mern"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder gitCenter" src={twelfthPic} alt="Git"></img>
+          </div>
+        
+        </div>
+
+        <div className="firstLogoCont">
+        
+          <div className="img-fluid rounded img-thumbnail allPics fixAjax">
+            <img className="img-fluid rounded img-thumbnail noBorder ajaxCenter" src={thirteenthPic} alt="Ajax"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder JsonCenter" src={fourteenthPic} alt="Json"></img>
+          </div>
+          
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder restCenter" src={fifteenthPic} alt="Rest API"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder npmCenter" src={sixteenthPic} alt="NPM"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder yarnCenter" src={seventeenthPic} alt="Yarn"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder terminalCenter" src={eigthteenthPic} alt="Terminal"></img>
+          </div>
+        
+        </div>
+
+        <div className="firstLogoCont">
+        
+          <div className="img-fluid rounded img-thumbnail allPics fixHeroku">
+            <img className="img-fluid rounded img-thumbnail noBorder herokuCenter" src={ninteenthPic} alt="Heroku"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder handlebarsCenter" src={twentiethPic} alt="Handlebars"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder jqueryCenter" src={twentyfirstPic} alt="jQuery"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder photoshopCenter" src={twentysecondPic} alt="Photoshop"></img>
+          </div>
+
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder illustratorCenter" src={twentythirdPic} alt="Illustrator"></img>
+          </div>
+          
+          <div className="img-fluid rounded img-thumbnail allPics">
+            <img className="img-fluid rounded img-thumbnail noBorder indesignCenter" src={twentyfourthPic} alt="Indesign"></img>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div className="myProjects">
+        
       </div>
     </div>
 // );

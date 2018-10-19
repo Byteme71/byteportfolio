@@ -82,9 +82,9 @@
 }
 .mySkills {
     margin-top: 10%;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 1200px;
 }
-
  .forAboutPage4 {
     font-size: 100px;
     /* position: absolute; */
@@ -125,7 +125,7 @@
 .allPics {
     width: 200px;
     height: 200px;
-    transition: transform 1s;
+    transition: transform .5s;
     margin: 10px 10px 10px 10px;
     vertical-align: middle;
 }
@@ -156,4 +156,67 @@
 }
 .expressCenter{
     margin-top: 26%;
+}
+.fixMongo {
+    width: 200px !important;
+    height: 200px !important;
+}
+.mongoCenter {
+    margin-top:15%;
+}
+.mongooseCenter {
+    margin-top:35%;
+}
+.mysqlCenter{
+    margin-top: 4%;
+}
+.sequelizeCenter{
+    margin-top: 26%;
+}
+.mernCenter{
+    margin-top: 20%;
+}
+.gitCenter{
+    margin-top: 29%;
+}
+.fixAjax{
+    width: 200px !important;
+    height: 200px !important;
+}
+.ajaxCenter{
+    margin-top: 18%;
+}
+.JsonCenter{
+    margin-top: 28%;
+}
+.restCenter{
+    margin-top: 36%;
+}
+.npmCenter{
+    margin-top: 35%;
+}
+.yarnCenter{
+    margin-top: 26%;
+}
+.terminalCenter {
+    margin-top: 20%;
+}
+.fixHeroku {
+    width: 200px !important;
+    height: 200px !important;
+}
+.handlebarsCenter{
+    margin-top: 30%;
+}
+.jqueryCenter{
+    margin-top: 23%;
+}
+.photoshopCenter{
+    margin-top: 25%;
+}
+.illustratorCenter{
+    margin-top: 23%;
+}
+.indesignCenter{
+    margin-top: 25%;
 }
