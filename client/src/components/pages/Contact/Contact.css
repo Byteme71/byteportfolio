@@ -1,0 +1,25 @@
+.contactMe{
+    height: 100vh;
+    font-family: 'Play', sans-serif;
+}
+.footer-toggle-contact{
+    text-align: center;
+    margin-top: 4%;
+}
+.card{
+    margin: 5% auto;
+    height: 400px;
+    width:  1000px;
+}
+.cardEdit{
+    margin: 1.5% auto;
+    width: 700px;
+}
+.contactButton{
+    text-align: center;
+    margin-top: 1%;
+}
+.messageBox{
+    height: 80px;
+    word-wrap: break-word;
+}

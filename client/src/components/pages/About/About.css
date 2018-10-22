@@ -228,7 +228,7 @@
     clear:both;
     height: 100vh;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 12%;
     font-family: "Exo", "sans-serif";
 }
 .fixButton{
@@ -236,4 +236,12 @@
 }
 .quoteStyle{
     margin-top: 3%;
+}
+.projects-toggle{
+    margin-top: 10%;
+}
+.projectsHeader{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
 }

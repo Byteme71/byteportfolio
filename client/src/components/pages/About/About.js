@@ -249,7 +249,7 @@ let firstBackgroundStyle = {
         </ReactModal>
 
         <div className="skills-toggle">
-          <Link activeClass="active" className="test2" to="test2" spy={true} smooth={true} duration={500}><i onClick={this.checkStateOf} className={this.state.clicked === true ? "animated infinite bounce slower fas fa-angle-up forAboutPage3" : "animated infinite bounce slower fas fa-angle-down forAboutPage4"}></i></Link>
+          <Link activeClass="active" className="test2" to="test2" spy={true} smooth={true} duration={500}><i className= "animated infinite bounce slower fas fa-angle-down forAboutPage4"></i></Link>
         </div>
         
         </div>
@@ -382,6 +382,15 @@ let firstBackgroundStyle = {
           <p className="authorStyle"><strong>Author:</strong> {this.state.randomFact.author}</p>
         </div>
 
+        <div className="projects-toggle">
+          <Link activeClass="active" className="test4" to="test4" spy={true} smooth={true} duration={500}><i onClick={this.checkStateOf} className={this.state.clicked === true ? "animated infinite bounce slower fas fa-angle-up forAboutPage3" : "animated infinite bounce slower fas fa-angle-down forAboutPage4"}></i></Link>
+        </div>
+
+      </div>
+
+      <div className="myProjects test4">
+        <h1 className="projectsHeader">My Projects!</h1>
+      
       </div>
     </div>
 // );
