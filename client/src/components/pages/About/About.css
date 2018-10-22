@@ -65,8 +65,8 @@
     margin-left: 25%;
 }
 .forMargin {
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
     clear:both;
 }
 #aboutMe{
@@ -225,6 +225,15 @@
     text-align: center;
 }
 .apiRandom{
-
+    clear:both;
     height: 100vh;
+    text-align: center;
+    margin-top: 15%;
+    font-family: "Exo", "sans-serif";
+}
+.fixButton{
+    margin-bottom: 2%;
+}
+.quoteStyle{
+    margin-top: 3%;
 }

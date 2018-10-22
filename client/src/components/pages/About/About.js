@@ -50,6 +50,14 @@ class About extends React.Component {
     this.handleCloseModal = this.handleCloseModal.bind(this);
   }
 
+
+  state = {
+    scroll: false,
+    clicked: false,
+    showModal: false,
+    randomFact: []
+  };
+
   componentDidMount() {
 
     Events.scrollEvent.register('begin', function () {
@@ -65,20 +73,14 @@ class About extends React.Component {
       method: "get",
       headers : {"X-Mashape-Key":"mRST8vI7Urmshu7LufdArXefa02up1mUy2JjsnbujyNyk5oMSG"}
     }).then(response => {
-      console.log("these are the results", response)
+      console.log("these are the results", response.data[0])
       this.setState({
-        randomFact:[]
+        randomFact: response.data[0]
       })
     });
 
   }
   
-  state = {
-    scroll: false,
-    clicked: false,
-    showModal: false,
-    randomFact: []
-  };
 
    handleOpenModal () {
     this.setState({ showModal: true });
@@ -374,7 +376,10 @@ let firstBackgroundStyle = {
       <div className="apiRandom test3">
         
         <div className="putApiHere">
-          
+          <h1>Here's a Random Famous Quotes API!</h1>
+          <h3>Using AJAX, Axios & JSON:</h3>
+          <p className="quoteStyle"><strong>Quote:</strong> {this.state.randomFact.quote}</p>
+          <p className="authorStyle"><strong>Author:</strong> {this.state.randomFact.author}</p>
         </div>
 
       </div>
