@@ -35,11 +35,12 @@ import twentyfirstPic from "../../../photos/jquery.png";
 import twentysecondPic from "../../../photos/photoshop.png";
 import twentythirdPic from "../../../photos/illustrator.png";
 import twentyfourthPic from "../../../photos/indesign.jpg";
+import projectOne from "../../../photos/1-01.jpg";
+import projectTwo from "../../../photos/1-02.jpg";
+import projectThree from "../../../photos/1-03.jpg";
+import projectFour from "../../../photos/1-04.jpg";
 
 
-
-
-//regex for email ^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$//
 
 class About extends React.Component {
 
@@ -134,7 +135,6 @@ class About extends React.Component {
 
 handleOnClick = () => {
   if (this.state.scroll === false) {
-    // scroll.scrollToBottom();
     this.setState({
       scroll: true
     })
@@ -159,7 +159,7 @@ handleOnClick = () => {
   }
 }
 
-// const About = () => (
+
   render() {
   
     
@@ -389,11 +389,23 @@ let firstBackgroundStyle = {
       </div>
 
       <div className="myProjects test4">
+        
         <h1 className="projectsHeader">My Projects!</h1>
       
+        <img src={projectOne} alt="Project 1"></img>
+        
+        <img src={projectTwo} alt="Project 2"></img>
+
+        <img src={projectThree} alt="Project 3"></img>
+
+        <img src={projectFour} alt="Project 4"></img>
+ 
+          
+
       </div>
+
     </div>
-// );
+
     
        );
   }
