@@ -247,70 +247,30 @@
     font-family: 'Open Sans', sans-serif;
 }
 .myProjects{
-    height: 2000px;
+    height: 120vh;
     text-align: center;
 }
 .myProjects img {
     width: 740px;
     height: 300px;
-    /* padding: 5px 5px 5px 5px; */
+    border-radius: 2% !important;
 }
-/* .projectOne{
-    float: left;
-    width: 30%;
-} */
-/* .myProjects>img {
-    width: 50%;
-    height: 25%
-} */
-/* .myProjects > img {
-    width: 200px;
-    height: 300px !important;
-} */
-/* .myProjects{
-    clear: both;
-    height: 2000px;
-} 
-.myProjects > img{
-    width: 100%;
-    /* margin: 2.5% auto; */
-    /* outline: 1px solid red; */
-    /* width: 22vw;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    flex-grow: 1;
-    overflow: hidden;
-    box-sizing: border-box; 
-    object-fit: fill !important;
+.one {
+    padding-right: 8px;
+    padding-bottom: 8px;
 }
-/* .myProjects {
-    text-align: center;
-} */
-/* .firstRow{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    display:flex;
-    flex-flow: wrap;
-} */
-/*.secondRow{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    object-fit: fill !important;
-} */
-/*.projectOne {
-        max-width: 100%;
-        margin: 2.5% auto;
-        outline: 1px solid red;
-        width: 22vw;
-        min-height: 100%;
-        margin: 0;
-        padding: 0;
-        flex-grow: 1;
-        overflow: hidden;
-        box-sizing: border-box;
-        object-fit: fill;
+.two{
+    padding-left: 8px;
+    padding-bottom: 8px;
 }
-*/
+.three{
+    padding-right: 8px;
+    padding-top: 8px;
+}
+.four{
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.to-top-toggle{
+    margin-top: 2.5%;
+}

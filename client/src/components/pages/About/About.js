@@ -157,7 +157,12 @@ handleOnClick = () => {
         clicked: false
       })
   }
-}
+  }
+  
+
+  goToTop = () => {
+    scroll.scrollToTop();
+  }
 
 
   render() {
@@ -392,15 +397,17 @@ let firstBackgroundStyle = {
         
         <h1 className="projectsHeader">My Projects!</h1>
       
-        <img src={projectOne} alt="Project 1"></img>
+        <a href="https://my-pain-pal.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="one" src={projectOne} alt="Project 1"></img></a>
         
-        <img src={projectTwo} alt="Project 2"></img>
+        <a href="http://danibyte.co/" target="_blank" rel="noopener noreferrer"><img className="two" src={projectTwo} alt="Project 2"></img></a>
 
-        <img src={projectThree} alt="Project 3"></img>
+        <a href="https://tluczak112.github.io/project_1/" target="_blank" rel="noopener noreferrer"><img className="three" src={projectThree} alt="Project 3"></img></a>
 
-        <img src={projectFour} alt="Project 4"></img>
+        <a href="https://nyt-ds.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="four" src={projectFour} alt="Project 4"></img></a>
  
-          
+        <div className="to-top-toggle">
+        <i onClick={this.goToTop} className="animated infinite bounce slower fas fa-angle-up forAboutPage3"></i>
+        </div>
 
       </div>
 
