@@ -165,7 +165,9 @@ handleOnClick = () => {
   }
 
 
+
   render() {
+
   
     
 let myPhotoStyle = {
