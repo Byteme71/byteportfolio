@@ -32,9 +32,6 @@ class Contact extends React.Component {
 
   //regex for email ^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$//
 
-  //   // styles = {
-  //   //   display: "none"
-  //   // }
 
   handleInputChange = (event) => {
     // update any state property with the input value of the same name
@@ -43,25 +40,7 @@ class Contact extends React.Component {
     });
   };
 
-  //   submitNytreact = (event) => {
-  //     event.preventDefault();
-  // //  console.log("is this happening")
-  //     // send the entire state object to the back-end
-  //     axios.get(`https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=fc0296d021eb41eea4234990749bd552&query=${this.state.name}`).then(response => {
-  //       // console.log("these are the results", response.data.response.docs)
-  //       this.setState({
-  //         articles:[]
-  //       })
 
-  //       if (response) {
-  //         // clear state/input values
-  //         this.setState({
-  //           articles: response.data.response.docs
-  //         });
-  //         // console.log("are these the articles", this.state.articles)
-  //       }
-  //     });
-  //   };
 
     submitContact = (event) => {
       event.preventDefault();
@@ -113,9 +92,7 @@ class Contact extends React.Component {
                   />
                 </div>
                 <div className="form-group">
-                  <input
-                value={this.state.value}
-                name="email"
+                  <input value={this.state.value} name="email"
                 onChange={this.handleInputChange}
                 type="text"
                 placeholder="Enter your email!"
@@ -123,9 +100,7 @@ class Contact extends React.Component {
                   />
                 </div>
                 <div className="form-group">
-                  <input
-                value={this.state.value}
-                name="message" onChange={this.handleInputChange} type="text" placeholder="Write me a message!" className="form-control messageBox" rows="3" />
+                  <textarea value={this.state.value} name="message" onChange={this.handleInputChange} type="text" placeholder="Write me a message!" className="form-control messageBox" rows="3"></textarea>
                 </div>
                 <div className="contactButton">
                   <button className="btn btn-outline-primary mt-2">Contact Me!</button>
