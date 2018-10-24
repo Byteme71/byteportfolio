@@ -398,18 +398,68 @@ let firstBackgroundStyle = {
       <div className="myProjects test4">
         
         <h1 className="projectsHeader">My Projects!</h1>
+
+        <div className="container-a1">
+          
+          <ul className="caption-style-1">
+            
+            <li>
       
-        <a href="https://my-pain-pal.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="one" src={projectOne} alt="Project 1"></img></a>
+              <a href="https://my-pain-pal.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="one" src={projectOne} alt="Project 1"></img></a>
+              				<div className="caption">
+					<div className="blur"></div>
+					<div className="caption-text">
+						<h1>My Pain Pal</h1>
+						<p>Built using Javascript, Node.js, HTML5, CSS3, Handlebars, Express.js, </p>
+					</div>
+				</div>
+            </li>
+            <li>
         
-        <a href="http://danibyte.co/" target="_blank" rel="noopener noreferrer"><img className="two" src={projectTwo} alt="Project 2"></img></a>
+              <a href="http://danibyte.co/" target="_blank" rel="noopener noreferrer"><img className="two" src={projectTwo} alt="Project 2"></img></a>
+              				<div className="caption">
+					<div className="blur"></div>
+					<div className="caption-text">
+						<h1>Amazing Caption</h1>
+						<p>Whatever It Is - Always Awesome</p>
+					</div>
+				</div>
+            </li>
+            <li>
 
-        <a href="https://tluczak112.github.io/project_1/" target="_blank" rel="noopener noreferrer"><img className="three" src={projectThree} alt="Project 3"></img></a>
+              <a href="https://tluczak112.github.io/project_1/" target="_blank" rel="noopener noreferrer"><img className="three" src={projectThree} alt="Project 3"></img></a>
+              				<div className="caption">
+					<div className="blur"></div>
+					<div className="caption-text">
+						<h1>Amazing Caption</h1>
+						<p>Whatever It Is - Always Awesome</p>
+					</div>
+				</div>
+            </li>
+            <li>
 
-        <a href="https://nyt-ds.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="four" src={projectFour} alt="Project 4"></img></a>
- 
+              <a href="https://nyt-ds.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="four" src={projectFour} alt="Project 4"></img></a>
+              				<div className="caption">
+					<div className="blur"></div>
+					<div className="caption-text">
+						<h1>Amazing Caption</h1>
+						<p>Whatever It Is - Always Awesome</p>
+					</div>
+				</div>
+            </li>
+            
+              </ul>
+          
+        </div>
+
+
+
         <div className="to-top-toggle">
         <i onClick={this.goToTop} className="animated infinite bounce slower fas fa-angle-up forAboutPage3"></i>
-        </div>
+              </div>
+              
+            
+
 
       </div>
 
