@@ -336,3 +336,35 @@
 .footer {
     clear: both;
 }
+
+
+@media (max-width: 576px) {
+    .projects-toggle {
+        display: none;
+    }
+    .about-me-toggle {
+        display: none;
+    }
+    .skills-toggle {
+        display: none;
+    }
+    .api-toggle {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .projects-toggle {
+        display: none;
+    }
+    .about-me-toggle {
+        display: none;
+    }
+    .skills-toggle {
+        display: none;
+    }
+    .api-toggle {
+        display: none;
+    }
+}
