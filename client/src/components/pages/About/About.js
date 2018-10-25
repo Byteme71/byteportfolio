@@ -405,47 +405,51 @@ let firstBackgroundStyle = {
             
             <li>
       
-              <a href="https://my-pain-pal.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="one" src={projectOne} alt="Project 1"></img></a>
+              <a href="https://my-pain-pal.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="one" src={projectOne} alt="Project 1"></img>
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
 						<h1>My Pain Pal</h1>
 						<p>Built with Javascript, HTML5, CSS3, Node.js, Express.js, Sequelize, MySQL, JQuery, Bootstrap, HandleBars, Session, Routes, NPM, MVC, Body Parser, Path, JSON, AJAX & REST API.</p>
 					</div>
-				</div>
+                </div>
+                </a>
             </li>
             <li>
         
-              <a href="http://danibyte.co/" target="_blank" rel="noopener noreferrer"><img className="two" src={projectTwo} alt="Project 2"></img></a>
+              <a href="http://danibyte.co/" target="_blank" rel="noopener noreferrer"><img className="two" src={projectTwo} alt="Project 2"></img>
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
 						<h1>My Portfolio Website</h1>
 						<p>Full Stack MERN website with an API. Built with React, JSX, MongoDB, Mongoose, Express.js, Javascript,  Node.js, CSS3, Routes, Body Parser, YARN, Path, JSON, AJAX, Bootstrap, & REST API.</p>
 					</div>
-				</div>
+                </div>
+                </a>
             </li>
             <li>
 
-              <a href="https://tluczak112.github.io/project_1/" target="_blank" rel="noopener noreferrer"><img className="three" src={projectThree} alt="Project 3"></img></a>
+              <a href="https://tluczak112.github.io/project_1/" target="_blank" rel="noopener noreferrer"><img className="three" src={projectThree} alt="Project 3"></img>
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
 						<h1>MTL - Music Tickets Lyrics</h1>
 						<p>Built with JQuery, API, SVG, Materialize, Javascript, CSS3, & HTML5.</p>
 					</div>
-				</div>
+                </div>
+                </a>
             </li>
             <li>
 
-              <a href="https://nyt-ds.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="four" src={projectFour} alt="Project 4"></img></a>
+              <a href="https://nyt-ds.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="four" src={projectFour} alt="Project 4"></img>
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
 						<h1>New York Times Scraper</h1>
 						<p>Built with Axios, React, Node.js, Express.js, Javascript, REST API, Routes, Router, JSX, MongoDB, Mongoose, Body Parser, Path, HTML5 & CSS3.</p>
 					</div>
-				</div>
+                </div>
+                </a>
             </li>
             
               </ul>
