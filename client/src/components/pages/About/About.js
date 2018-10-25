@@ -422,7 +422,7 @@ let firstBackgroundStyle = {
 					<div className="blur"></div>
 					<div className="caption-text">
 						<h1>My Portfolio Website</h1>
-						<p>Full Stack MERN website with an API. Built with React, JSX, MongoDB, Mongoose, Express, Javascript,  Node.js, CSS3, Routes, Body Parser, YARN, Path, JSON, AJAX, Bootstrap, & REST API.</p>
+						<p>Full Stack MERN website with an API. Built with React, React-Router, JSX, MongoDB, Mongoose, Express, Javascript,  Node.js, CSS3, Routes, Body Parser, YARN, Path, JSON, AJAX, Bootstrap, & REST API.</p>
 					</div>
                 </div>
                 </a>
@@ -446,7 +446,7 @@ let firstBackgroundStyle = {
 					<div className="blur"></div>
 					<div className="caption-text">
 						<h1>New York Times Scraper</h1>
-						<p>Built with Axios, React, Node.js, Express, Javascript, REST API, Routes, Router, JSX, MongoDB, Mongoose, Body Parser, Path, HTML5 & CSS3.</p>
+						<p>Built with Axios, React, React-Router, Node.js, Express, Javascript, REST API, Routes, Router, JSX, MongoDB, Mongoose, Body Parser, Path, HTML5 & CSS3.</p>
 					</div>
                 </div>
                 </a>
