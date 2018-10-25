@@ -89,3 +89,31 @@ button {
  .letsChangeThis1:hover {
     cursor:pointer;
  }
+
+ 
+@media (max-width: 576px) {
+    .footer-toggle {
+        display: none;
+    }
+    .footer {
+        clear: both;
+    }
+    * {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer-toggle {
+        display: none;
+    }
+    .footer {
+        clear: both;
+    }
+    * {
+        width: auto;
+        height: auto;
+    }
+}
