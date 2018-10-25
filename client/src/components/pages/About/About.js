@@ -383,7 +383,7 @@ let firstBackgroundStyle = {
       <div className="apiRandom test3">
         
         <div className="putApiHere">
-          <h1>Here's a Random Famous Quotes API!</h1>
+          <h1>Here's a Random Famous Quote API!</h1>
           <h3>Using AJAX, Axios & JSON:</h3>
           <p className="quoteStyle"><strong>Quote:</strong> {this.state.randomFact.quote}</p>
           <p className="authorStyle"><strong>Author:</strong> {this.state.randomFact.author}</p>
@@ -410,7 +410,7 @@ let firstBackgroundStyle = {
 					<div className="blur"></div>
 					<div className="caption-text">
 						<h1>My Pain Pal</h1>
-						<p>Built using Javascript, Node.js, HTML5, CSS3, Handlebars, Express.js, </p>
+						<p>Built with Javascript, HTML5, CSS3, Node.js, Express.js, Sequelize, MySQL, JQuery, Bootstrap, HandleBars, Session, Routes, NPM, MVC, Body Parser, Path, JSON, AJAX & REST API.</p>
 					</div>
 				</div>
             </li>
@@ -420,8 +420,8 @@ let firstBackgroundStyle = {
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
-						<h1>Amazing Caption</h1>
-						<p>Whatever It Is - Always Awesome</p>
+						<h1>My Portfolio Website</h1>
+						<p>Full Stack MERN website with an API. Built with React, JSX, MongoDB, Mongoose, Express.js, Javascript,  Node.js, CSS3, Routes, Body Parser, YARN, Path, JSON, AJAX, Bootstrap, & REST API.</p>
 					</div>
 				</div>
             </li>
@@ -431,8 +431,8 @@ let firstBackgroundStyle = {
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
-						<h1>Amazing Caption</h1>
-						<p>Whatever It Is - Always Awesome</p>
+						<h1>MTL - Music Tickets Lyrics</h1>
+						<p>Built with JQuery, API, SVG, Materialize, Javascript, CSS3, & HTML5.</p>
 					</div>
 				</div>
             </li>
@@ -442,8 +442,8 @@ let firstBackgroundStyle = {
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
-						<h1>Amazing Caption</h1>
-						<p>Whatever It Is - Always Awesome</p>
+						<h1>New York Times Scraper</h1>
+						<p>Built with Axios, React, Node.js, Express.js, Javascript, REST API, Routes, Router, JSX, MongoDB, Mongoose, Body Parser, Path, HTML5 & CSS3.</p>
 					</div>
 				</div>
             </li>
