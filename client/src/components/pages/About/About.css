@@ -499,7 +499,7 @@
     margin-top: 50%;
 }
 }
-
+/*
 @media only screen and (min-width : 1224px) {
     .projects-toggle {
         display: none;
@@ -520,7 +520,7 @@
     .forMedias {
         width: 100%;
         /* height: 1000vh; */
-    }
+    /*}
 
     .footer {
         clear: both;
@@ -560,7 +560,7 @@
     .forMedias {
         width: 100%;
         /* height: 1000vh; */
-    }
+    /*}
 
     .footer {
         clear: both;
@@ -578,7 +578,7 @@
         margin-top: 50%;
     }
 }
-
+*/
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
