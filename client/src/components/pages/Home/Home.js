@@ -36,7 +36,7 @@ class Home extends React.Component {
     
     return (
       <div>
-        <div className="fullscreen">
+        <div className="fullscreen container-fluid">
       
             <Bounce top>
             <h1 className="newFirst">Hey, I'm</h1>

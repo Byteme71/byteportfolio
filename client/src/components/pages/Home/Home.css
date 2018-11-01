@@ -90,30 +90,58 @@ button {
     cursor:pointer;
  }
 
- 
-@media (max-width: 576px) {
-    .footer-toggle {
-        display: none;
-    }
-    .footer {
-        clear: both;
-    }
-    * {
-        width: 100%;
-        height: auto;
-    }
+@media screen and (max-width: 480px) {
+.footer-toggle {
+    display:none;
+}
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+}
+@media screen and (max-width: 540px) {
+.footer-toggle {
+    display: none;
+}
+.fullscreen{
+    width: 100%;
+    height: 100vh;
+}
+}
+@media screen and (max-width: 640px) {
+.footer-toggle {
+    display: none;
+}
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+.footer {
+    clear:both;
+}
+}
+@media screen and (max-width: 800px) {
+.footer-toggle {
+    display: none;
+}
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+.footer {
+    clear: both;
+}
+}
+@media screen and (max-width: 960px) {
+.footer-toggle {
+    display: none;
+}
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+.footer {
+    clear: both;
+}
 }
 
-@media (max-width: 768px) {
-
-    .footer-toggle {
-        display: none;
-    }
-    .footer {
-        clear: both;
-    }
-    * {
-        width: auto;
-        height: auto;
-    }
-}
