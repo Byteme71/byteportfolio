@@ -193,7 +193,7 @@ let firstBackgroundStyle = {
 } 
   
   return (
-  <div className="container-fluid forMedias">
+  <div>
     <div className="fullScreen" style={firstBackgroundStyle}>
       <Flip top duration={2500}>
         <img className="plsWork img-responsive img-fluid rounded img-thumbnail rounded-circle" src={me} alt="Daniela Shvartsman" style={myPhotoStyle}></img>
@@ -405,7 +405,7 @@ let firstBackgroundStyle = {
             
             <li>
       
-              <a href="https://my-pain-pal.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="one img-fluid" src={projectOne} alt="Project 1"></img>
+              <a href="https://my-pain-pal.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="one" src={projectOne} alt="Project 1"></img>
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
@@ -417,7 +417,7 @@ let firstBackgroundStyle = {
             </li>
             <li>
         
-              <a href="http://danibyte.co/" target="_blank" rel="noopener noreferrer"><img className="two img-fluid" src={projectTwo} alt="Project 2"></img>
+              <a href="http://danibyte.co/" target="_blank" rel="noopener noreferrer"><img className="two" src={projectTwo} alt="Project 2"></img>
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
@@ -429,7 +429,7 @@ let firstBackgroundStyle = {
             </li>
             <li>
 
-              <a href="https://tluczak112.github.io/project_1/" target="_blank" rel="noopener noreferrer"><img className="three img-fluid" src={projectThree} alt="Project 3"></img>
+              <a href="https://tluczak112.github.io/project_1/" target="_blank" rel="noopener noreferrer"><img className="three" src={projectThree} alt="Project 3"></img>
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
@@ -441,7 +441,7 @@ let firstBackgroundStyle = {
             </li>
             <li>
 
-              <a href="https://nyt-ds.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="four img-fluid" src={projectFour} alt="Project 4"></img>
+              <a href="https://nyt-ds.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="four" src={projectFour} alt="Project 4"></img>
               				<div className="caption">
 					<div className="blur"></div>
 					<div className="caption-text">
@@ -456,15 +456,11 @@ let firstBackgroundStyle = {
           
         </div>
 
-
-
         <div className="to-top-toggle">
         <i onClick={this.goToTop} className="animated infinite bounce slower fas fa-angle-up forAboutPage3"></i>
               </div>
               
             
-
-
       </div>
 
     </div>
