@@ -129,7 +129,7 @@ button {
  }
 
 
- @media (min-width: 1025px) {
+ @media (min-width: 2000px) {
     .fullscreen {
         width: 100%;
     }
