@@ -128,8 +128,52 @@ button {
         }
  }
 
+/* 
+ @media (min-width: 1025px) {
+    .fullscreen {
+        width: 100%;
+    }
+    .newFirst{
+        font-size: 120px;
+    }
+    .initialText{
+        font-size: 190px;
+    }
+    .thirdText{
+        font-size: 80px;
+    }
+    .mediaResize {
+        font-size: 45px;
+    }
+    .navbar{
+        height: 100px;
+    }
+    .navbar > a {
+        font-size: 70px;
+    }
+    .navbar > #navbarNav{
+        margin-top: .3%;
+        font-size: 40px;
+    }
+    .letsChangeThis2{
+        font-size: 180px;
+    }
+    .letsChangeThis1{
+        font-size: 180px;
+    }
+    .footer h5{
+        font-size: 50px;
+    }
+    .contactIcons i{
+        font-size: 45px;
+        padding-bottom: 80px;
+    }
+    .footer span {
+        font-size: 35px;
+    }
+ } */
 
- @media (min-width: 2000px) {
+  @media (min-width: 3000px) {
     .fullscreen {
         width: 100%;
     }
