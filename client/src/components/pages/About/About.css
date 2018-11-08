@@ -70,7 +70,7 @@
     clear:both;
 }
 #aboutMe{
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
     position: relative;
 }
@@ -83,7 +83,7 @@
 .mySkills {
     margin-top: 10%;
     /* height: 100vh; */
-    height: 1200px;
+    /* height: 1200px; */
 }
  .forAboutPage4 {
     font-size: 100px;
@@ -226,7 +226,7 @@
 }
 .apiRandom{
     clear:both;
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
     margin-top: 12%;
     font-family: "Exo", "sans-serif";
@@ -241,13 +241,13 @@
     margin-top: 10%;
 }
 .projectsHeader{
-    margin-top: -15%;
+    /* margin-top: -15%; */
     margin-bottom: 5%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
 .myProjects{
-    height: 120vh;
+    /* height: 120vh; */
     text-align: center;
 }
 .myProjects img {
@@ -338,16 +338,113 @@
 }
 
 @media (max-width: 320px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
 
+    .footer {
+        bottom: 0;
+        clear: both;
+    }
+    .fullScreen{
+        width: 100%;
+    }
+    .myName{
+        font-size: 30px;
+    }
+    .firstTitle{
+        font-size: 15px;
+    }
+    .plsWork{
+        margin-top: 30%;
+    }
+    .forAboutPage1{
+        margin-bottom: 13%
+    }
+    .forAboutPage2{
+        margin-bottom: 13%
+    }
 }
 
 
 @media (max-width: 720px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .footer {
+        bottom: 0;
+        clear: both;
+    }
+    .fullScreen {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .myName {
+        font-size: 30px;
+        word-wrap: normal;
+    }
+    .firstTitle {
+        font-size: 15px;
+    }
+    .plsWork {
+        margin-top: 30% !important;
+    }
+    .forAboutPage1 {
+        margin-bottom: 13%
+    }
+
+    .forAboutPage2 {
+        margin-bottom: 13%
+    }
 
 }
 
 
 @media (max-width: 1024px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .footer {
+        bottom: 0;
+        clear: both;
+    }
+    .fullScreen {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .myName {
+        font-size: 30px;
+        word-wrap: normal;
+    }
+    .firstTitle {
+        font-size: 15px;
+    }
+    .plsWork {
+        margin-top: 30% !important;
+    }
+    .forAboutPage1 {
+        margin-bottom: 13%
+    }
+
+    .forAboutPage2 {
+        margin-bottom: 13%
+    }
 
 }
 
