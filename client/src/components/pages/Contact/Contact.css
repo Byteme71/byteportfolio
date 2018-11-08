@@ -1,5 +1,5 @@
 .contactMe{
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'Play', sans-serif;
 }
 .footer-toggle-contact{
@@ -8,18 +8,74 @@
 }
 .card{
     margin: 5% auto;
-    height: 400px;
-    width:  1000px;
+    height: 60%;
+    width:  70%;
 }
 .cardEdit{
     margin: 1.5% auto;
-    width: 700px;
+    width: 65%;
+    height: 100%;
 }
 .contactButton{
     text-align: center;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 .messageBox{
     height: 80px;
     word-wrap: break-word !important;
 }
+ @media (max-width: 320px) {
+     html {
+         width: 100%;
+         height: 100%;
+     }
+
+     .footer {
+         bottom: 0;
+         clear: both;
+     }
+    /* .card{
+        width: 100%;
+        margin-top: 10%;
+     } */
+    /* .form {
+        width: 50%;
+    } */
+ }
+
+
+ @media (max-width: 720px) {
+     html {
+         width: 100%;
+     }
+    .footer {
+        bottom: 0;
+        clear: both;
+    }
+    /* .card {
+        width: 100%;
+        margin-top: 10%;
+    } */
+    /* .form{
+        width: 50%;
+    } */
+ }
+
+
+ @media (max-width: 1024px) {
+     html {
+         width: 100%;
+     }
+    .footer {
+        bottom: 0;
+        clear: both;
+    }
+    /* .card {
+        width: 80%;
+        margin-top: 5%;
+    } */
+    /* .form{
+        width:80%;
+    } */
+ }
