@@ -81,7 +81,7 @@
     margin-bottom: 60px;
 }
 .mySkills {
-    margin-top: 10%;
+    /* margin-top: 10%; */
     /* height: 100vh; */
     /* height: 1200px; */
 }
@@ -368,6 +368,18 @@
     .forAboutPage2{
         margin-bottom: 13%
     }
+    .myProjects img{
+        width: 100%;
+        height: 90%;
+    }
+    .caption-style-1 .blur {
+        width: 100%;
+        height: 90%;
+    }
+    .caption-style-1 .caption-text {
+        width: 100%;
+        height: 90%;
+    }
 }
 
 
@@ -406,7 +418,19 @@
     .forAboutPage2 {
         margin-bottom: 13%
     }
+    .myProjects img {
+        width: 100%;
+        height: 90%;
 
+    }
+    .caption-style-1 .blur {
+        width: 100%;
+        height: 90%;
+    }
+    .caption-style-1 .caption-text {
+        width: 100%;
+        height: 90%;
+    }
 }
 
 
@@ -436,7 +460,7 @@
         font-size: 15px;
     }
     .plsWork {
-        margin-top: 30% !important;
+        margin-top: 20% !important;
     }
     .forAboutPage1 {
         margin-bottom: 13%
@@ -445,7 +469,18 @@
     .forAboutPage2 {
         margin-bottom: 13%
     }
-
+    .myProjects img {
+        width: 100%;
+        height: 90%;
+    }
+    .caption-style-1 .blur{
+        width: 100%;
+        height: 90%;
+    }
+    .caption-style-1 .caption-text{
+        width: 100%;
+        height: 90%;
+    }
 }
 
 /* 
