@@ -4,8 +4,7 @@ import me from "../../../photos/smaller-01.jpg";
 import fullScreen from "../../../photos/pexels-photo-1166643.jpeg";
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
-// import * as Scroll from 'react-scroll';
-// import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import * as Scroll from 'react-scroll';
 import axios from "axios";
 import { render } from 'react-dom';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
@@ -83,7 +82,7 @@ class About extends React.Component {
   }
   
 
-   handleOpenModal () {
+  handleOpenModal () {
     this.setState({ showModal: true });
   }
   
@@ -95,15 +94,15 @@ class About extends React.Component {
     scroll.scrollToTop();
   }
 
-    scrollTo() {
+  scrollTo() {
     scroller.scrollTo('scroll-to-element', {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart'
     })
-    }
+  }
   
-   scrollToWithContainer() {
+  scrollToWithContainer() {
 
     let goToContainer = new Promise((resolve, reject) => {
 
@@ -133,64 +132,60 @@ class About extends React.Component {
     Events.scrollEvent.remove('end');
   }
 
-handleOnClick = () => {
-  if (this.state.scroll === false) {
-    this.setState({
-      scroll: true
-    })
-  } else if (this.state.scroll === true){
-    scroll.scrollToTop();
+  handleOnClick = () => {
+    if (this.state.scroll === false) {
       this.setState({
-        scroll: false
+        scroll: true
       })
-  }  
-}
+    } else if (this.state.scroll === true){
+      scroll.scrollToTop();
+        this.setState({
+          scroll: false
+      })
+    }  
+  }
   
   checkStateOf = () => {
     if (this.state.clicked === false) {
       this.setState({
-      clicked: true
-    })
+        clicked: true
+      })
     } else if (this.state.clicked === true) {
       scroll.scrollToTop();
       this.setState({
         clicked: false
       })
-  }
+    }
   }
   
-
   goToTop = () => {
     scroll.scrollToTop();
   }
 
 
-
   render() {
-
-  
     
-let myPhotoStyle = {
-  "width": "22%",
-  "marginTop": "5%",
-  "marginLeft": "15%",
-  "marginBottom": "1%"
-}
+    let myPhotoStyle = {
+      "width": "22%",
+      "marginTop": "5%",
+      "marginLeft": "15%",
+      "marginBottom": "1%"
+    }
 
-let firstBackgroundStyle = {
-  backgroundImage: `url(${fullScreen})`,
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center",
-  backgroundSize: "cover",
-  // height: window.innerHeight,
-  height: "100vh",
-  position: "relative"
-  // top: '0',
-  // bottom: '0',
-  // left: '0',
-  // right: '0',
-  // position: 'absolute'
-} 
+    let firstBackgroundStyle = {
+      backgroundImage: `url(${fullScreen})`,
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center",
+      backgroundSize: "cover",
+      // height: window.innerHeight,
+      height: "100vh",
+      position: "relative"
+      // top: '0',
+      // bottom: '0',
+      // left: '0',
+      // right: '0',
+      // position: 'absolute'
+    } 
   
   return (
   <div>
@@ -458,13 +453,10 @@ let firstBackgroundStyle = {
 
         <div className="to-top-toggle">
         <i onClick={this.goToTop} className="animated infinite bounce slower fas fa-angle-up forAboutPage3"></i>
-              </div>
-              
-            
+        </div>
+                   
       </div>
-
     </div>
-
     
        );
   }

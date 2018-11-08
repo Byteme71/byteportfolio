@@ -26,16 +26,16 @@ class Footer extends React.Component {
   }
 
 
-// const Footer = () => (
+
    render () {
-  return (
-  <footer className="footer">
-    <h5>&#10084; Stay in touch! &#10084;</h5>
-    <hr/>
-    <div className="contactIcons">
-      <a href="https://www.linkedin.com/in/shvartsmand/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-      <a href="https://github.com/Byteme71" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-      <i className="fas fa-file resumeOpener" onClick={this.handleOpenModal}></i>
+    return (
+      <footer className="footer">
+        <h5>&#10084; Stay in touch! &#10084;</h5>
+          <hr/>
+        <div className="contactIcons">
+          <a href="https://www.linkedin.com/in/shvartsmand/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Byteme71" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+        <i className="fas fa-file resumeOpener" onClick={this.handleOpenModal}></i>
         <ReactModal 
           isOpen={this.state.showModal}
           onRequestClose={this.handleCloseModal}
@@ -46,16 +46,15 @@ class Footer extends React.Component {
             <button type="button" className="btn btn-outline-info forMargin" onClick={this.handleCloseModal}>Close Resume</button>
           </div>
         </ReactModal>
-      <a href="https://plus.google.com/u/0/+DanielaShvartsman" target="_blank" rel="noopener noreferrer"><i className="fab fa-google-plus"></i></a>
-      <a href="https://codepen.io/byteme71/#" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
-      <a href="https://medium.com/@shvartsmand" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
-      <a href="https://stackexchange.com/users/13428720/daniela-shvartsman" target="_blank" rel="noopener noreferrer"><i className="fab fa-stack-overflow"></i></a>
-      <a href="https://www.freecodecamp.org/byteme71" target="_blank" rel="noopener noreferrer"><i className="fab fa-free-code-camp"></i></a>
-      <a href="https://www.hackerrank.com/Shvartsmand" target="_blank" rel="noopener noreferrer"><i className="fab fa-hackerrank"></i></a>
-    </div>
-    <span>Made by Daniela Shvartsman &#169; </span>
-    </footer>
-// );
+          <a href="https://plus.google.com/u/0/+DanielaShvartsman" target="_blank" rel="noopener noreferrer"><i className="fab fa-google-plus"></i></a>
+          <a href="https://codepen.io/byteme71/#" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
+          <a href="https://medium.com/@shvartsmand" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
+          <a href="https://stackexchange.com/users/13428720/daniela-shvartsman" target="_blank" rel="noopener noreferrer"><i className="fab fa-stack-overflow"></i></a>
+          <a href="https://www.freecodecamp.org/byteme71" target="_blank" rel="noopener noreferrer"><i className="fab fa-free-code-camp"></i></a>
+          <a href="https://www.hackerrank.com/Shvartsmand" target="_blank" rel="noopener noreferrer"><i className="fab fa-hackerrank"></i></a>
+        </div>
+        <span>Made by Daniela Shvartsman &#169; </span>
+      </footer>
     );
   }
 }

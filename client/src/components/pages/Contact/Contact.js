@@ -15,60 +15,57 @@ class Contact extends React.Component {
     }
   };
 
-    handleOnClick = () => {
-    if (this.state.scroll === false) {
-      scroll.scrollToBottom();
+  handleOnClick = () => {
+  if (this.state.scroll === false) {
+    scroll.scrollToBottom();
+    this.setState({
+      scroll: true
+    })
+  } else if (this.state.scroll === true){
+    scroll.scrollToTop();
       this.setState({
-        scroll: true
+        scroll: false
       })
-    } else if (this.state.scroll === true){
-      scroll.scrollToTop();
-       this.setState({
-         scroll: false
-       })
-    }
-     
-  }
+  }  
+}
 
   //regex for email ^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$//
 
 
   handleInputChange = (event) => {
-    // update any state property with the input value of the same name
     this.setState({
       [event.target.name]: event.target.value
     });
   };
 
 
-
-    submitContact = (event) => {
-      event.preventDefault();
-      document.location.reload()
+  submitContact = (event) => {
+    event.preventDefault();
+    document.location.reload()
 
       console.log("this is the name", this.state.name)
       console.log("this is the email", this.state.email)
       console.log("this is the message", this.state.message)
 
-      let saveName = this.state.name;
-      let saveEmail = this.state.email;
-      let saveMessage = this.state.message;
+    let saveName = this.state.name;
+    let saveEmail = this.state.email;
+    let saveMessage = this.state.message;
 
-    this.setState({
-      contactsToSave:{
-      name: saveName,
-      email: saveEmail,
-      message: saveMessage,
-      }
-    },()=> {
-      axios.post("/api/contact", this.state.contactsToSave).then(response=>{
-        if (response){
-          console.log("contact saved")
+      this.setState({
+        contactsToSave:{
+        name: saveName,
+        email: saveEmail,
+        message: saveMessage,
         }
-      }).catch(err=>{
-        console.log("error", err)
-      }) 
-    })
+      },()=> {
+        axios.post("/api/contact", this.state.contactsToSave).then(response=>{
+          if (response){
+            console.log("contact saved")
+          }
+        }).catch(err=>{
+          console.log("error", err)
+        }) 
+      })
   }
 
   render() {
@@ -114,9 +111,7 @@ class Contact extends React.Component {
           </div>
           
         </div>
-
       </div>
-
     );
   }
 }
