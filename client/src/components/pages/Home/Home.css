@@ -121,6 +121,7 @@ button {
  @media (max-width: 1024px) {
     html{
         width: 100%;
+        overflow-x: visible;
     }
         .footer {
             bottom: 0;
